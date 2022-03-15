@@ -3,3 +3,58 @@ body {
   height: 100%;
   margin: 0;
 }
+
+a:link { 
+  color: rgb(255, 255, 255); 
+}    
+
+a:visited { 
+  color: orchid; 
+}
+
+header {
+  text-align: center;
+}
+
+header nav { 
+  background-color:red;
+}
+
+#featured-property figure {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+#featured-property p{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#details div{
+  float: left;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: red;
+}
+
+
+
+/* 
+
+Make our #details section horizontal: The details section could go nicely 
+as a footer to the page, instead of a vertical list. To do this, make each 
+of the <div>s float to the left
+
+As a finishing touch: Let's clean up the <div>s at the bottom of the page. 
+All of them should have the same background color, centered text, 
+and occupy 25% of the width of the bottom row (since we have 4 divs).
+*/
